@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--BLUETOOTH-->
+    <string name="bt_not_avaliable">Bluetooth is not available, shutting down!</string>
+    <string name="bt_not_enabled">Bluetooth has not been enabled, shutting down!</string>
+    <string name="ble_device_not_have">his device does not have Bluetooth Low Energy, shutting down!</string>
+    <string name="bt_turn_on_gps">GPS is off. \nFor recent versions of Android, \nthis needs to be connected to\nsearching for BlueTooth devices.\nThe application will be terminated!\nPlease enable GPS and run again. This is necessary to be done only once.</string>
+    <string name="bt_gps_not_activate">GPS required to find Bluetooth devices, please enable this and try again.</string>
+    <string name="bt_service_ble_uart_not_init">Unable to initialize the BLE UART service, shutting down!</string>
+    <string name="bt_device_has_disconnected">The Bluetooth device was disconnected</string>
+    <string name="bt_connecting">Connecting to device ...</string>
+    <string name="bt_scanning">Scanning the device ...</string>
+    <string name="bt_device_not_connected">Bluetooth device has not connected</string>
+    <string name="bt_waiting_response">Waiting Bluetooth response ...</string>
+    <string name="ble_device_null">Null BLE device</string>
+    <string name="ble_uart_not_supported">Bluetooth Device doesn\'t support UART. Disconnecting</string>
+    <string name="ble_uart_service_not_active">BLE UART Service not active</string>
+    <!--XLIFF-->
+    <string name="reached_maximum_time_inactivity">Bluetooth device was shutdown, due to having reached maximum time of inactivity (<xliff:g id="total">%d</xliff:g> s.)</string>
+    <!--Sem XLIFF-->
+    <string name="app_name">EspApp</string>
+    <string name="message_splash">Initializing app ...</string>
+    <string name="connection_bluetooth">Bluetooth ® Low Energy</string>
+    <string name="connecting">Connecting...</string>
+    <string name="turn_on_device">Please turn on the device</string>
+    <string name="subtitle_device">Device:</string>
+    <string name="connection_aborted">Connection aborted:</string>
+    <string name="device_connecting">Connecting to device:</string>
+    <string name="device_connected">Connected to device:</string>
+    <string name="device_connected_version">Device connected - firmware</string>
+    <string name="device_has_off">Bluetooth device has been turned off</string>-->
+    <string name="try_connection_again">Try connection again</string>
+    <string name="without_response_device">No response from Bluetooth device</string>
+    <string name="sending_message_bluetooth">Sending message Bluetooth</string>
+    <string name="send">Send</string>
+    <string name="back_to_exit">Press again to exit</string>
+    <string name="exit">Sair</string>
+    <string name="loading_app">Loading app ...</string>
+    <string name="app_exception_message">Warning!\nAn exception has occurred in app:</string>
+    <string name="abort_app">Close app</string>
+    <string name="refresh">Refresh</string>
+    <string name="cancel">Cancel</string>
+    <string name="format_date_time">MM-dd-yy hh:mm aa</string>
+    <string name="format_time">hh:mm:ss aa</string>
+    <string name="receive_wrong_message">Received invalid message via Bluetooth.</string>
+    <string name="battery_too_low">Attention: the battery is very low. Recommended connect charger.</string>
+    <string name="sending_feedback">Sending feedback</string>
+    <string name="exception_in_app">An exception has occurred in app</string>
+    <string name="mainmenu_info_name">Informations</string>
+    <string name="mainmenu_info_desc">Show informations about ESP32 device connected</string>
+    <string name="mainmenu_term_name">Terminal BLE</string>
+    <string name="mainmenu_term_desc">Terminal to send or see message BLE</string>
+    <string name="mainmenu_sett_name">Settings</string>
+    <string name="mainmenu_sett_desc">Show settings of this App</string>
+    <string name="main_menu_title">EspApp</string>
+    <string name="info_esp32_title">Informations</string>
+    <string name="terminal_ble_title">Terminal BLE</string>
+    <string name="demo">demonstration</string>
+    <string name="not_allowed_in_demo">Not allowed in demonstration</string>
+    <string name="confirm_exit_app">Confirm exit app ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="repeat">Repeat</string>
+    <string name="tble_type_connection">C-Connection</string>
+    <string name="tble_type_disconn">D-Disconn</string>
+    <string name="tble_type_receive">R-Receive</string>
+    <string name="tble_type_send">S-Send</string>
+    <string name="tble_type_other">O-Other</string>
+    <string name="stop">Stop</string>
+    <string name="repeated_sends_now">Repeated sends now</string>
+    <string name="empty_data">Empty data</string>
+    <string name="for_repeats_only_echo_msgs">For repeat, only echo messages</string>
+    <string name="ext_terminal">by terminal</string>
+    <string name="repeat_sends_is_stopped">Repeat sends is stopped</string>
+    <string name="echo_test">Echo test</string>
+    <string name="tble_repeats_p_sec">*** Repeats(send/receive) p/sec.:</string>
+    <string name="bat_status_chg">|Chg</string>
+    <string name="bat_status_bat">Bat</string>
+    <string name="bat_status_ext">Ext</string>
+    <string name="attention_low_battery">Attention: Low battery on BLE device!</string>
+    <string name="ext_initial">Initial</string>
+    <string name="ext_energy">Energy</string>
+    <string name="ext_info">Info</string>
+    <string name="ext_echo">Echo</string>
+    <string name="ext_feedback">Feedback</string>
+    <string name="ext_standby">Standby</string>
+    <string name="ext_invalid">Invalid</string>
+
+</resources>

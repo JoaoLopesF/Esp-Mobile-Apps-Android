@@ -1,0 +1,207 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="1"
+    android:background="@color/color_blue_light_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:text="About connect ESP32 device:"
+        android:textColor="@color/color_blue_dark"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextInfoEsp32"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/color_white"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:text="..."
+        android:textColor="#000"
+        android:textSize="@dimen/text_size_small" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|clip_vertical|clip_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="ESP32 free memory: "
+            android:textColor="@color/color_blue_dark" />
+
+        <TextView
+            android:id="@+id/textViewInfoFreeMem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="0000"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonInfoFreeMemRef"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/refresh_small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|clip_vertical|clip_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="ESP32 voltage: "
+            android:textColor="@color/color_blue_dark" />
+
+        <TextView
+            android:id="@+id/textViewInfoVoltEsp32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="0000"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonInfoVoltEsp32Ref"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/refresh_small" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="(by rom_phy_get_vdd33 - experimental)"
+        android:textSize="@dimen/text_size_small" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|clip_vertical|clip_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Powered by: "
+            android:textColor="@color/color_blue_dark" />
+
+        <TextView
+            android:id="@+id/textViewInfoPowered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Bat"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|clip_vertical|clip_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Battery charging ?: "
+            android:textColor="@color/color_blue_dark" />
+
+        <TextView
+            android:id="@+id/textViewInfoCharging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="No"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|clip_vertical|clip_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="ADC read of VBAT: "
+            android:textColor="@color/color_blue_dark" />
+
+        <TextView
+            android:id="@+id/textViewInfoVoltBat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="0000"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonInfoVoltBatRef"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/refresh_small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|clip_vertical|clip_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:text=" Refresh all"
+            android:textColor="@color/color_blue_dark"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonInfoRefreshAll"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/refresh_small" />
+    </LinearLayout>
+
+
+</LinearLayout>

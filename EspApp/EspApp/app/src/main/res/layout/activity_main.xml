@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".activities.MainActivity" tools:ignore="MergeRootFrame"
+    android:background="@color/color_blue_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:baselineAligned="false">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/layoutHeader">
+
+            <TextView
+                android:id="@+id/textViewSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="false"
+                android:gravity="top|left"
+                android:lines="2"
+                android:text="..."
+                android:textAlignment="gravity"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="10sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="false"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:lines="1"
+                android:text="@string/loading_app"
+                android:textAlignment="center"
+                android:textColor="@color/color_blue_dark"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonExit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/exit_small"
+                android:padding="20dp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_blue_dark"/>
+
+    <fragment
+        android:id="@+id/fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:name="com.example.espapp.activities.FragmentSplash"
+        tools:layout="@layout/fragment_splash"
+        android:layout_weight="1">
+
+     </fragment>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_blue_dark" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_blue_dark"/>
+
+    <LinearLayout
+        android:id="@+id/layoutStatus"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom|top"
+        android:layout_margin="0dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/imageViewStatusBT"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="0dp"
+            android:src="@drawable/bt_icon_inactive" />
+
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/color_blue_dark" />
+
+        <TextView
+            android:id="@+id/textViewStatusEnergy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/imageViewStatusEnergy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/battery0"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>

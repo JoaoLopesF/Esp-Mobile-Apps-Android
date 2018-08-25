@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:orientation="vertical"
+    android:background="#ffff0000"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_blue_dark"
+        android:layout_margin="1dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/exception" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/app_exception_message"
+             />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(message)"
+        android:id="@+id/textViewMessage"
+        android:background="@color/color_blue_dark"
+        android:layout_margin="1dp"
+        tools:ignore="HardcodedText" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:fillViewport="false"
+        android:layout_margin="1dp"
+        >
+    <TextView
+        android:id="@+id/textViewException"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#00ff00"
+        android:textSize="8sp" />
+
+        </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#000000">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abort_app"
+            android:id="@+id/buttonFinish"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/shape_rounded" />
+    </LinearLayout>
+
+</LinearLayout>

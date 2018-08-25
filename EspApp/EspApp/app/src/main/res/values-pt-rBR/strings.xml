@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--BLUETOOTH-->
+    <string name="bt_not_avaliable">Bluetooth não disponível, encerrando oapp!</string>
+    <string name="bt_not_enabled">Bluetooth não foi habilitado. encerrando o app!.</string>
+    <string name="ble_device_not_have">Este dispositivo não possui Bluetooth Low Energy, encerrando o app!</string>
+    <string name="bt_turn_on_gps">O GPS está desligado.\nPara as versões pacote do Android,\nisto necessita ser ligado para \na procura por dispositivos BlueTooth.\nO Aplicativo será encerrado!\nFavor habilitar o GPS e executar novamente. Isto é necessário ser feito somente uma vez</string>
+    <string name="bt_gps_not_activate">GPS necessário para localizar dispositivos Bluetooth, favor habilitar isto e tentar novamente.</string>
+    <string name="bt_service_ble_uart_not_init">Não foi possível inicializar o serviço BLE UART, encerrando o app!</string>
+    <string name="bt_device_has_disconnected">O dispositivo foi desconectado</string>
+    <string name="bt_connecting">Conectando ao dispositivo ...</string>
+    <string name="bt_scanning">Procurando o dispositivo ...</string>
+    <string name="bt_device_not_connected">Não foi possível conectar ao dispositivo Bluetooth</string>
+    <string name="bt_waiting_response">Aguardando resposta do Bluetooth...</string>
+    <string name="ble_device_null">Dispositivo BLE nulo</string>
+    <string name="ble_uart_not_supported">Dispositivo Bluetooth não suporta UART, desconnectando ...</string>
+    <string name="ble_uart_service_not_active">BLE UART Serviço não ativo (cod B3)</string>
+    <!--XLIFF-->
+    <string name="reached_maximum_time_inactivity">O dispositivo Bluetooth foi desligado, devido ter atingido tempo máximo de inatividade (<xliff:g id="total">%d</xliff:g> s.)</string>
+    <!--Sem XLIFF-->
+    <string name="app_name">EspApp</string>
+    <string name="message_splash">Inicializando o app ...</string>
+    <string name="connection_bluetooth">Bluetooth ® Low Energy</string>
+    <string name="connecting">Conectando...</string>
+    <string name="turn_on_device">Favor ligar o dispositivo</string>
+    <string name="subtitle_device">Disp.:</string>
+    <string name="connection_aborted">Conexão abortada:</string>
+    <string name="device_connecting">Conectando ao dispositivo:</string>
+    <string name="device_connected">Conectado ao dispositivo</string>
+    <string name="device_connected_version">Conexão efetuada com o dispositivo - versão firmware</string>
+    <string name="device_has_off">O dispositivo foi desligado (B9)</string>-->
+    <string name="try_connection_again">Tentar a conexão novamente</string>
+    <string name="without_response_device">Sem resposta do dispositivo Bluetooth</string>
+    <string name="sending_message_bluetooth">Enviando mensagens Bluetooth</string>
+    <string name="send">Enviar</string>
+    <string name="back_to_exit">Pressione novamente para sair</string>
+    <string name="exit">Sair</string>
+    <string name="loading_app">Carregando o aplicativo ...</string>
+    <string name="app_exception_message">Atenção!\nOcorreu uma exceção no aplicativo:</string>
+    <string name="abort_app">Encerrar o aplicativo</string>
+    <string name="refresh">Atualizar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="format_date_time">dd-MM-yy HH:mm:ss</string>
+    <string name="format_time">HH:mm:ss</string>
+    <string name="receive_wrong_message">Recebida message inválida via Bluetooth.</string>
+    <string name="battery_too_low">Atenção: a bateria está com uma carga muito baixa. Recomendado conectar o carregador.</string>
+    <string name="sending_feedback">Enviando feedback</string>
+    <string name="exception_in_app">Ocorreu um erro no App:</string>
+    <string name="mainmenu_info_name">Informações</string>
+    <string name="mainmenu_info_desc">Exibe informações sobre o dispositivo ESP32 conectado</string>
+    <string name="mainmenu_term_name">Terminal BLE</string>
+    <string name="mainmenu_term_desc">Terminal para ver ou enviar mensagens BLE</string>
+    <string name="mainmenu_sett_name">Settings</string>
+    <string name="mainmenu_sett_desc">Exibe as configurações deste App</string>
+    <string name="main_menu_title">EspApp</string>
+    <string name="info_esp32_title">Informações</string>
+    <string name="terminal_ble_title">Terminal BLE</string>
+    <string name="demo">em demonstração</string>
+    <string name="not_allowed_in_demo">Não permitido para modo demonstração</string>
+    <string name="confirm_exit_app">Confirme sair do app ?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="repeat">Repetir</string>
+    <string name="stop">Parar</string>
+    <string name="tble_type_connection">C-Conexão</string>
+    <string name="tble_type_disconn">D-Descon.</string>
+    <string name="tble_type_receive">R-Receb.</string>
+    <string name="tble_type_send">S-Envio</string>
+    <string name="tble_type_other">O-Outro</string>
+    <string name="tble_repeats_p_sec">*** Repetições(envio/receb.) p/seg.:</string>
+    <string name="repeated_sends_now">Envios repetidos iniciam agora</string>
+    <string name="empty_data">Sem dados!</string>
+    <string name="for_repeats_only_echo_msgs">Para repetições, somente mensagens de eco</string>
+    <string name="repeat_sends_is_stopped">O envio repetido for parado!</string>
+    <string name="echo_test">Teste</string>
+    <string name="bat_status_chg">|Crg</string>
+    <string name="bat_status_bat">Bat</string>
+    <string name="bat_status_ext">Ext</string>
+    <string name="attention_low_battery">Atencão: Dispositivo BLE com baixa bateria!</string>
+    <string name="ext_initial">Inicial</string>
+    <string name="ext_terminal">p/terminal</string>
+    <string name="ext_energy">Energia</string>
+    <string name="ext_info">Info</string>
+    <string name="ext_echo">Eco</string>
+    <string name="ext_feedback">Feedback</string>
+    <string name="ext_invalid">Inválida</string>
+    <string name="ext_standby">Standby</string>
+
+</resources>

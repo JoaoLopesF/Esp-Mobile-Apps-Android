@@ -1,0 +1,56 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <!-- the theme applied to the application or activity -->
+
+    <style name="AppBaseTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- CUSTOMIZACOES - TEMAS -->
+
+    <style name="AppTheme"
+        parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:actionMenuTextColor">@color/color_white</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+        <!--<item name="android:background">@color/cor_azul_escuro</item>-->
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText"
+        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/color_blue_dark</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <!-- ActionBar tabs text styles -->
+    <style name="MyActionBarTabText"
+        parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+
+    <style name="tallerBarStyle" parent="@android:style/Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:minHeight">8dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+
+</resources>
