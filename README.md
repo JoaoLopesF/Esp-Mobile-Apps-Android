@@ -4,9 +4,9 @@ Esp-Mobile-Apps is a set of examples apps to start making Esp32 BLE devices conn
 I have prepared a set of applications, to serve as a basis,
 for those who need to make ble connected mobile projects with the ESP32.
 
-* Part I    - __ESP-IDF app__ - Esp32 firmware example  - https://github.com/JoaoLopesF/Esp-Mobile-Apps-Esp32
-* Part II   - __iOS app__ - mobile app example          - https://github.com/JoaoLopesF/Esp-Mobile-Apps-iOS
-* Part III  - __Android app__ - mobile app example      - this github repo
+* Part I   - __ESP-IDF app__ - Esp32 firmware example  - https://github.com/JoaoLopesF/Esp-Mobile-Apps-Esp32
+* Part II  - __Android app__ - mobile app example      - this github repo
+* Part III - __iOS app__     - mobile app example      - https://github.com/JoaoLopesF/Esp-Mobile-Apps-iOS
 
 It is a advanced, but simple (ready to go), fully functional set of applications.
 
@@ -16,7 +16,7 @@ It is a advanced, but simple (ready to go), fully functional set of applications
 
  - [Esp32](#esp32)
  - [BLE](#ble)
- - [Part II - Andrioid app](#part-ii---android-app)
+ - [Part II - Android app](#part-ii---android-app)
  - [Features](#features)
  - [BLE messages](#blemessages)
  - [Structure](#structure)
