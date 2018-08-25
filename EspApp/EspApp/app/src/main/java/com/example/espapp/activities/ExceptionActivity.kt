@@ -17,6 +17,8 @@ import android.widget.TextView
 import com.example.espapp.R
 import com.example.util.Util
 
+// TODO: it not is showed, on error in log
+
 class ExceptionActivity : Activity() {
 
     private var buttonEncerrar: Button? = null

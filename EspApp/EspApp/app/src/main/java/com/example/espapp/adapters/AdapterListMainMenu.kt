@@ -26,7 +26,7 @@ import com.example.espapp.models.app.MenuOption
 
 class AdapterListMainMenu(private var mainActivity: MainActivity,
                           private var contexto: Context,
-                          private var menuOptions: Array<MenuOption>) : ArrayAdapter<MenuOption>(contexto,
+                          private var menuOptions: MutableList<MenuOption>) : ArrayAdapter<MenuOption>(contexto,
                                                                             R.layout.fragment_mainmenu_list, menuOptions) {
 
     // Events

@@ -30,39 +30,75 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="app" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-191">
-              <caret line="347" column="16" selection-start-line="347" selection-start-column="16" selection-end-line="347" selection-end-column="16" />
+            <state relative-caret-position="548">
+              <caret line="195" column="26" selection-start-line="195" selection-start-column="26" selection-end-line="195" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#16355#16386#1" expanded="true" />
-                <element signature="e#28155#28187#1" expanded="true" />
-                <element signature="e#31008#31039#1" expanded="true" />
-                <element signature="e#31449#31479#1" expanded="true" />
-                <element signature="e#32115#32143#1" expanded="true" />
-                <element signature="e#32557#32585#1" expanded="true" />
-                <element signature="e#32928#32956#1" expanded="true" />
-                <element signature="e#33268#33300#1" expanded="true" />
-                <element signature="e#33624#33655#1" expanded="true" />
-                <element signature="e#34075#34106#1" expanded="true" />
-                <element signature="e#39517#39558#1" expanded="true" />
+                <element signature="e#11262#11296#1" expanded="true" />
+                <element signature="e#12113#12145#1" expanded="true" />
+                <element signature="e#13113#13149#0" expanded="true" />
+                <element signature="e#13196#13227#0" expanded="true" />
+                <element signature="e#14039#14075#1" expanded="true" />
+                <element signature="e#14101#14147#1" expanded="true" />
+                <element signature="e#14173#14216#1" expanded="true" />
+                <element signature="e#14242#14289#1" expanded="true" />
+                <element signature="e#14315#14354#1" expanded="true" />
+                <element signature="e#14380#14428#1" expanded="true" />
+                <element signature="e#14454#14489#1" expanded="true" />
+                <element signature="e#14515#14557#1" expanded="true" />
+                <element signature="e#14583#14617#1" expanded="true" />
+                <element signature="e#14643#14682#1" expanded="true" />
+                <element signature="e#15370#15407#0" expanded="true" />
+                <element signature="e#16304#16335#1" expanded="true" />
+                <element signature="e#18877#18913#1" expanded="true" />
+                <element signature="e#20590#20625#0" expanded="true" />
+                <element signature="e#21981#22017#0" expanded="true" />
+                <element signature="e#22495#22525#1" expanded="true" />
+                <element signature="e#23399#23445#1" expanded="true" />
+                <element signature="e#25170#25208#0" expanded="true" />
+                <element signature="e#26414#26459#1" expanded="true" />
+                <element signature="e#26846#26885#1" expanded="true" />
+                <element signature="e#28002#28038#1" expanded="true" />
+                <element signature="e#28104#28136#1" expanded="true" />
+                <element signature="e#28825#28861#0" expanded="true" />
+                <element signature="e#29559#29600#1" expanded="true" />
+                <element signature="e#29763#29804#1" expanded="true" />
+                <element signature="e#30961#30992#1" expanded="true" />
+                <element signature="e#31402#31432#1" expanded="true" />
+                <element signature="e#32067#32095#1" expanded="true" />
+                <element signature="e#32509#32537#1" expanded="true" />
+                <element signature="e#32880#32908#1" expanded="true" />
+                <element signature="e#33220#33252#1" expanded="true" />
+                <element signature="e#33556#33587#1" expanded="true" />
+                <element signature="e#33652#33686#1" expanded="true" />
+                <element signature="e#33727#33761#1" expanded="true" />
+                <element signature="e#34007#34038#1" expanded="true" />
+                <element signature="e#35120#35164#0" expanded="true" />
+                <element signature="e#37097#37131#0" expanded="true" />
+                <element signature="e#37187#37221#0" expanded="true" />
+                <element signature="e#37442#37476#0" expanded="true" />
+                <element signature="e#39453#39494#1" expanded="true" />
+                <element signature="e#46379#46422#1" expanded="true" />
+                <element signature="e#46850#46934#1" expanded="true" />
+                <element signature="e#48150#48188#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentInfoESP32.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentInfoESP32.kt">
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="180" column="35" selection-start-line="180" selection-start-column="35" selection-end-line="180" selection-end-column="35" />
-              <folding>
-                <element signature="e#4447#4475#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -70,17 +106,17 @@
       <file leaf-file-name="FragmentTerminalBLE.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentTerminalBLE.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="175" selection-start-line="156" selection-end-line="175" />
+            <state relative-caret-position="552">
+              <caret line="146" selection-start-line="146" selection-end-line="146" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentTemplate.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentTemplate.kt">
+      <file leaf-file-name="MessagesBLE.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/helpers/MessagesBLE.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="460">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -88,8 +124,8 @@
       <file leaf-file-name="AppSettings.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/helpers/AppSettings.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+            <state relative-caret-position="92">
+              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -97,8 +133,8 @@
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="123" selection-start-line="123" selection-end-line="123" />
+            <state relative-caret-position="1845">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
             </state>
           </provider>
           <provider selected="true" editor-type-id="android-designer2">
@@ -106,39 +142,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_icon.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/drawable/app_icon.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <file leaf-file-name="FragmentMainMenu.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentMainMenu.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/res/values-pt-rBR/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="73" column="71" selection-start-line="73" selection-start-column="71" selection-end-line="73" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="74" selection-start-line="73" selection-end-line="74" />
+            <state relative-caret-position="318">
+              <caret line="245" selection-start-line="244" selection-end-line="245" />
+              <folding>
+                <element signature="e#337#830#0" expanded="true" />
+                <element signature="e#5186#5224#0" expanded="true" />
+                <element signature="e#5268#5306#0" expanded="true" />
+                <element signature="e#5601#5639#0" expanded="true" />
+                <element signature="e#5666#5704#0" expanded="true" />
+                <element signature="e#5870#5908#0" expanded="true" />
+                <element signature="e#5935#5973#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,11 +171,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>item</find>
-      <find>bled</find>
-      <find>'C'</find>
-      <find>VC</find>
-      <find>toas</find>
       <find>vc</find>
       <find>keybo</find>
       <find>keyboa</find>
@@ -178,10 +190,25 @@
       <find>update</find>
       <find>energia</find>
       <find>wai</find>
+      <find>location</find>
+      <find>lastdevice</find>
+      <find>versio</find>
+      <find>savedInstanceState</find>
+      <find>save</find>
+      <find>$</find>
+      <find>haveb</find>
+      <find>menuOptions[pos]</find>
+      <find>have</find>
+      <find>deviceh</find>
+      <find>deviceHaveBattery</find>
     </findStrings>
     <replaceStrings>
       <replace>bleDebug</replace>
+      <replace>opt</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -2544,17 +2571,21 @@
         <option value="$PROJECT_DIR$/src/main/res/layout/fragment_mainmenu_list.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/fragment_mainmenu_list_disabled.xml" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/espapp/helpers/AppSettings.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/values-pt-rBR/strings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentTerminalBLE.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentTemplate.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentInfoESP32.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentConnection.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/espapp/activities/ExceptionActivity.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentMainMenu.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/espapp/helpers/AppSettings.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/espapp/activities/MainActivity.kt" />
-        <option value="$PROJECT_DIR$/src/main/res/values-pt-rBR/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/colors.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -2564,7 +2595,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
@@ -2573,14 +2604,75 @@
               <item name="app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="example" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="example" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="espapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="example" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="espapp" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="example" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="espapp" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="example" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="espapp" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="example" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ScreenshotViewer.SavePath" value="$USER_HOME$/Desktop" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../../../Android/sdk" />
     <property name="device.picker.selection" value="0037417434" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -2670,6 +2762,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -2677,38 +2770,37 @@
       <window_info id="Image Layers" order="2" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Preview" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50080776" side_tool="true" weight="0.3970588" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49757674" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" x="-960" y="-376" width="960" height="1057" id="Logcat" order="7" type="FLOATING" visible="true" weight="0.32941177" />
-      <window_info id="Captures" order="2" weight="0.25" />
+      <window_info id="Captures" order="2" sideWeight="0.49754903" weight="0.24959612" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49561402" visible="true" weight="0.24959612" />
-      <window_info anchor="right" id="Assistant" weight="0.32956383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49411765" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32941177" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="right" id="Gradle" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.50438595" side_tool="true" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="1" sideWeight="0.5058824" side_tool="true" weight="0.24959612" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.3970588" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.502451" side_tool="true" weight="0.24959612" />
+      <window_info anchor="right" id="Assistant" order="4" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Preview" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Build" order="7" weight="0.32941177" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
@@ -2732,6 +2824,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.5029412" side_tool="true" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -2749,46 +2842,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/MainActivity.kt</url>
-          <line>1391</line>
+          <line>1386</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/MainActivity.kt</url>
-          <line>1326</line>
+          <line>1321</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/ExceptionActivity.kt</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_terminal_ble.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state />
@@ -2818,16 +2892,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/adapters/BLEDebugHolder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="99" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="99" />
-          <folding>
-            <element signature="e#461#603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/adapters/BLEDebugHolder.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/models/BLEDebug.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -2839,9 +2904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="97" selection-start-line="97" selection-end-line="97" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2859,13 +2921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentMainMenu.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="57" selection-start-line="56" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_terminal_ble_item.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -2876,13 +2931,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values-pt/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values-pt/strings.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/util/Log.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2938,34 +2987,8 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/helpers/MessagesBLE.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/util/bluetooth/BLE.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1135">
-          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/androidTest/java/com/example/util/Utilitarios.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/androidTest/java/com/example/util/Preferencias.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/androidTest/java/com/example/util/Utilitarios.kt" />
+    <entry file="file://$PROJECT_DIR$/src/androidTest/java/com/example/util/Preferencias.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/util/Util.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -3013,16 +3036,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/drawable/charging.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -3034,78 +3047,239 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentTerminalBLE.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="175" selection-start-line="156" selection-end-line="175" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentTemplate.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/helpers/AppSettings.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentInfoESP32.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="180" column="35" selection-start-line="180" selection-start-column="35" selection-end-line="180" selection-end-column="35" />
-          <folding>
-            <element signature="e#4447#4475#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="347" column="16" selection-start-line="347" selection-start-column="16" selection-end-line="347" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#16355#16386#1" expanded="true" />
-            <element signature="e#28155#28187#1" expanded="true" />
-            <element signature="e#31008#31039#1" expanded="true" />
-            <element signature="e#31449#31479#1" expanded="true" />
-            <element signature="e#32115#32143#1" expanded="true" />
-            <element signature="e#32557#32585#1" expanded="true" />
-            <element signature="e#32928#32956#1" expanded="true" />
-            <element signature="e#33268#33300#1" expanded="true" />
-            <element signature="e#33624#33655#1" expanded="true" />
-            <element signature="e#34075#34106#1" expanded="true" />
-            <element signature="e#39517#39558#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="1110">
           <caret line="74" selection-start-line="73" selection-end-line="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/values-pt-rBR/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="318">
           <caret line="73" column="71" selection-start-line="73" selection-start-column="71" selection-end-line="73" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/util/bluetooth/BLE.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="630" column="32" selection-start-line="630" selection-start-column="26" selection-end-line="630" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentTemplate.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="46" selection-start-line="41" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentSplash.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentConnection.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../Android/sdk/sources/android-27/android/os/Binder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="564" selection-start-line="564" selection-end-line="564" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/EspApp-Android-Terminal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/EspApp-Android-Info.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/EspApp-Android-MainMenu.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/EspApp-Android-Conn.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../Android/sdk/sources/android-27/android/bluetooth/BluetoothGatt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+          <folding>
+            <element signature="e#38067#38089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/ExceptionActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentInfoESP32.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/EspApp-Android-MainMenu-NoBat.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/EspApp-Android-MainMenu-Release.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/EspApp-Android-Disconn.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentMainMenu.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="245" selection-start-line="244" selection-end-line="245" />
+          <folding>
+            <element signature="e#337#830#0" expanded="true" />
+            <element signature="e#5186#5224#0" expanded="true" />
+            <element signature="e#5268#5306#0" expanded="true" />
+            <element signature="e#5601#5639#0" expanded="true" />
+            <element signature="e#5666#5704#0" expanded="true" />
+            <element signature="e#5870#5908#0" expanded="true" />
+            <element signature="e#5935#5973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/helpers/MessagesBLE.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/FragmentTerminalBLE.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/helpers/AppSettings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/device-2018-08-25-131229.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/espapp/activities/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="195" column="26" selection-start-line="195" selection-start-column="26" selection-end-line="195" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#11262#11296#1" expanded="true" />
+            <element signature="e#12113#12145#1" expanded="true" />
+            <element signature="e#13113#13149#0" expanded="true" />
+            <element signature="e#13196#13227#0" expanded="true" />
+            <element signature="e#14039#14075#1" expanded="true" />
+            <element signature="e#14101#14147#1" expanded="true" />
+            <element signature="e#14173#14216#1" expanded="true" />
+            <element signature="e#14242#14289#1" expanded="true" />
+            <element signature="e#14315#14354#1" expanded="true" />
+            <element signature="e#14380#14428#1" expanded="true" />
+            <element signature="e#14454#14489#1" expanded="true" />
+            <element signature="e#14515#14557#1" expanded="true" />
+            <element signature="e#14583#14617#1" expanded="true" />
+            <element signature="e#14643#14682#1" expanded="true" />
+            <element signature="e#15370#15407#0" expanded="true" />
+            <element signature="e#16304#16335#1" expanded="true" />
+            <element signature="e#18877#18913#1" expanded="true" />
+            <element signature="e#20590#20625#0" expanded="true" />
+            <element signature="e#21981#22017#0" expanded="true" />
+            <element signature="e#22495#22525#1" expanded="true" />
+            <element signature="e#23399#23445#1" expanded="true" />
+            <element signature="e#25170#25208#0" expanded="true" />
+            <element signature="e#26414#26459#1" expanded="true" />
+            <element signature="e#26846#26885#1" expanded="true" />
+            <element signature="e#28002#28038#1" expanded="true" />
+            <element signature="e#28104#28136#1" expanded="true" />
+            <element signature="e#28825#28861#0" expanded="true" />
+            <element signature="e#29559#29600#1" expanded="true" />
+            <element signature="e#29763#29804#1" expanded="true" />
+            <element signature="e#30961#30992#1" expanded="true" />
+            <element signature="e#31402#31432#1" expanded="true" />
+            <element signature="e#32067#32095#1" expanded="true" />
+            <element signature="e#32509#32537#1" expanded="true" />
+            <element signature="e#32880#32908#1" expanded="true" />
+            <element signature="e#33220#33252#1" expanded="true" />
+            <element signature="e#33556#33587#1" expanded="true" />
+            <element signature="e#33652#33686#1" expanded="true" />
+            <element signature="e#33727#33761#1" expanded="true" />
+            <element signature="e#34007#34038#1" expanded="true" />
+            <element signature="e#35120#35164#0" expanded="true" />
+            <element signature="e#37097#37131#0" expanded="true" />
+            <element signature="e#37187#37221#0" expanded="true" />
+            <element signature="e#37442#37476#0" expanded="true" />
+            <element signature="e#39453#39494#1" expanded="true" />
+            <element signature="e#46379#46422#1" expanded="true" />
+            <element signature="e#46850#46934#1" expanded="true" />
+            <element signature="e#48150#48188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
         </state>
       </provider>
     </entry>

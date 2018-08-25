@@ -8,6 +8,7 @@
     <color name="color_blue_dark">#2e4d84</color>
     <color name="color_blue_bg">#c6e3fd</color>
     <color name="color_blue_light_bg">#c6e1f2</color>
+    <color name="color_app_header_bg">#ecf5f9</color>
 
     <!--Commum color names-->
 

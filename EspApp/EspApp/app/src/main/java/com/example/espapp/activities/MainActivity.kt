@@ -193,7 +193,7 @@ class MainActivity : FragmentActivity() {
 
             fragmentPrevious = fragmentActual
 
-            // Set name do fragment actual
+            // Set name of fragment actual
 
             field = nome
 
@@ -255,19 +255,14 @@ class MainActivity : FragmentActivity() {
 
         logD("--- onCreate")
 
-        // Previous state saved
+//        // Previous state saved, if you need this
+//
+//        if (savedInstanceState != null) {
+//        }
 
-        if (savedInstanceState != null) {
+        // ****** View
 
-            logD("savedInstanceState != NULL !")
-
-        } else {
-
-            // ****** View
-
-            setContentView(R.layout.activity_main)
-
-        }
+        setContentView(R.layout.activity_main)
 
         // Initialize (after a time to display splash)
 
@@ -1162,7 +1157,7 @@ class MainActivity : FragmentActivity() {
                         bleUpdateDebug( getString(R.string.ext_energy))
                     }
 
-                    logV ("Power message received -> $ message")
+                    logV ("Power message received -> $message")
 
                     bleProcessEnergy(fields)
 
@@ -1798,7 +1793,6 @@ class MainActivity : FragmentActivity() {
     // Add Debug BLE
 
     fun bleAddDebug (type: Char, message: String, extra: String = "", forced: Boolean = false) {
-
 
         // App have a Terminal BLE (debug)
 

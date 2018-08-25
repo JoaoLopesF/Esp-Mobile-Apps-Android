@@ -39,11 +39,11 @@ class FragmentTemplate : Fragment() {
 
         logD("")
 
-        // Previous state saved, does nothing
-
-        if (savedInstanceState != null) {
-            return rootView
-        }
+//        // Previous state saved, does nothing
+//
+//        if (savedInstanceState != null) {
+//            return rootView
+//        }
 
         // Views
 

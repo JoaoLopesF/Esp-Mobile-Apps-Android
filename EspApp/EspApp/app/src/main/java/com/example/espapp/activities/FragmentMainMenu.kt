@@ -20,9 +20,11 @@ import android.widget.ListView
 
 import com.example.espapp.R
 import com.example.espapp.adapters.AdapterListMainMenu
+import com.example.espapp.helpers.AppSettings
 import com.example.espapp.models.app.MenuOption
 import com.example.util.extentions.UI.extSetHeightBasedOnChildren
 import com.example.util.extentions.extShowToast
+import com.example.util.logV
 
 class FragmentMainMenu : Fragment() {
 
@@ -36,21 +38,21 @@ class FragmentMainMenu : Fragment() {
 
     // Variables
 
-    private lateinit var menuOptions: Array<MenuOption>
-        private set
+    private lateinit var menuOptions:  MutableList<MenuOption>                 
 
     // Events
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
 
+        logV("")
+
         val rootView = inflater.inflate(R.layout.fragment_mainmenu, container, false)
 
-        // Previous state saved, does nothing
-
-        if (savedInstanceState != null) {
-            return rootView
-        }
+//        // Previous state saved, if you need this
+//
+//        if (savedInstanceState != null) {
+//        }
 
         // Views
 
@@ -74,8 +76,16 @@ class FragmentMainMenu : Fragment() {
 
     }
 
+    override fun onStop() {
+        super.onStop()
+
+        logV("")
+    }
+
     override fun onDetach() {
         super.onDetach()
+
+        logV("")
 
         try {
             val childFragmentManager = Fragment::class.java.getDeclaredField("mChildFragmentManager")
@@ -125,7 +135,7 @@ class FragmentMainMenu : Fragment() {
 
     // Process option selected
 
-    private fun processOption(position: Int, longo: Boolean) {
+    private fun processOption(position: Int, long: Boolean) {
 
         val menuOption = this.menuOptions[position]
         var code = menuOption.code
@@ -201,44 +211,48 @@ class FragmentMainMenu : Fragment() {
 
     private fun processData() {
 
-        menuOptions = Array(3) { MenuOption() }
-
-        var pos = 0
-
-        while (pos < menuOptions.size) {
-            menuOptions[pos] = MenuOption()
-            pos++
-        }
-
-        pos = 0
-
+        menuOptions = mutableListOf()
+        
         // Informations about ESP32
 
-        this.menuOptions[pos].code = "INFO"
-        menuOptions[pos].name = getString(R.string.mainmenu_info_name)
-        menuOptions[pos].description = getString(R.string.mainmenu_info_desc)
-        menuOptions[pos].drawableImagem = R.drawable.info
-        menuOptions[pos].enabled = true
+        if (AppSettings.ESP32_INFORMATIONS) {
+
+            val optInfo = MenuOption()
+            optInfo.code = "INFO"
+            optInfo.name = getString(R.string.mainmenu_info_name)
+            optInfo.description = getString(R.string.mainmenu_info_desc)
+            optInfo.drawableImagem = R.drawable.info
+            optInfo.enabled = true
+            
+            this.menuOptions.add(optInfo)
+        }
 
         // Terminal BLE
 
-        pos++
+        if (AppSettings.TERMINAL_BLE) {
 
-        menuOptions[pos].code = "TERMINAL"
-        menuOptions[pos].name = getString(R.string.mainmenu_term_name)
-        menuOptions[pos].description = getString(R.string.mainmenu_term_desc)
-        menuOptions[pos].drawableImagem = R.drawable.terminal
-        menuOptions[pos].enabled = true
+            val optTerminal = MenuOption()
 
-        // AppSettings
+            optTerminal.code = "TERMINAL"
+            optTerminal.name = getString(R.string.mainmenu_term_name)
+            optTerminal.description = getString(R.string.mainmenu_term_desc)
+            optTerminal.drawableImagem = R.drawable.terminal
+            optTerminal.enabled = true
 
-        pos++
+            this.menuOptions.add(optTerminal)
+        }
 
-        menuOptions[pos].code = "SETTINGS"
-        menuOptions[pos].name = getString(R.string.mainmenu_sett_name)
-        menuOptions[pos].description = getString(R.string.mainmenu_sett_desc)
-        menuOptions[pos].drawableImagem = R.drawable.settings
-        menuOptions[pos].enabled = false
+        // AppSettings - remove it if you not need this
+
+        val optSettings = MenuOption()
+
+        optSettings.code = "SETTINGS"
+        optSettings.name = getString(R.string.mainmenu_sett_name)
+        optSettings.description = getString(R.string.mainmenu_sett_desc)
+        optSettings.drawableImagem = R.drawable.settings
+        optSettings.enabled = false
+
+        this.menuOptions.add(optSettings)
 
     }
 }

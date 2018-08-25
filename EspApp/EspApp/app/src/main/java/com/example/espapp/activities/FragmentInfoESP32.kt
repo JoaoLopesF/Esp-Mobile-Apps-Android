@@ -43,11 +43,10 @@ class FragmentInfoESP32 : Fragment() {
 
         logD("")
 
-        // Previous state saved, does nothing
-
-        if (savedInstanceState != null) {
-            return rootView
-        }
+//        // Previous state saved, if you need this
+//
+//        if (savedInstanceState != null) {
+//        }
 
         return rootView
     }

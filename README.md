@@ -10,7 +10,7 @@ for those who need to make ble connected mobile projects with the ESP32.
 
 It is a advanced, but simple (ready to go), fully functional set of applications.
 
-![Esp-Mobile-App](https://i.imgur.com/MuR7gna.png)
+![Esp-Mobile-App](https://i.imgur.com/FXOFAUC.png)
 
 ## Contents
 
@@ -246,32 +246,32 @@ Please give a star to this repo, if you like this.
 
     - When connecting a ESP32 device by BLE
 
-    ![Connection](https://imgur.com/0naYDmF)
+    ![Connection](https://i.imgur.com/0naYDmF.png)
 
 * MainMenu (EspAPP): 
 
     - Main menu of app
 
-    ![MainMenu](https://imgur.com/Re9gy85)
+    ![MainMenu](https://i.imgur.com/Re9gy85.png)
 
     - If device not enabled battery support 
     - (see bottom rigth that battery status is not showed)
 
-    ![MainMenuNoBat](https://imgur.com/UzURiOY)
+    ![MainMenuNoBat](https://i.imgur.com/UzURiOY.png)
 
 * Informations: 
 
     - Show informations about ESP32 device connected 
     - and status of battery (if enabled)
 
-    ![Informations](https://imgur.com/v0T1rls)
+    ![Informations](https://i.imgur.com/v0T1rls.png)
 
 * Terminal BLE: 
 
     - See or send messages BLE
     - Have a repeat funcion too (to send/receive repeated echo messages)
 
-    ![Terminal](https://imgur.com/lplBMWV)
+    ![Terminal](https://i.imgur.com/lplBMWV.png)
 
         Notes:  
             - See large info message receive with size of 207 bytes
@@ -281,13 +281,13 @@ Please give a star to this repo, if you like this.
 
     - When a disconnect has benn detected
 
-    ![Disconnected](https://imgur.com/Wud9zLf)
+    ![Disconnected](https://i.imgur.com/Wud9zLf.png)
 
 * Release 
 
     - When the app is a release version (to mobile stores)
 
-    ![Release](https://imgur.com/6yj7EDi)
+    ![Release](https://i.imgur.com/6yj7EDi.png)
 
         Note: The Informations and Terminal BLE,
         as only enabled if in development (DEBUG)

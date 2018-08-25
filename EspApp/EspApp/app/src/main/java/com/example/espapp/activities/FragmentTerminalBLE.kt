@@ -65,11 +65,11 @@ class FragmentTerminalBLE : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Previous state saved, does nothing // TODO see
-
-        if (savedInstanceState != null) {
-            return
-        }
+//        // Previous state saved, does nothing // TODO see
+//
+//        if (savedInstanceState != null) {
+//            return
+//        }
 
         // Views
 
